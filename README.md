@@ -32,22 +32,6 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 Certainly! Here's the continuation of the description for the README.md file:
 
-## Deployment
-
-The web application can be easily deployed to a production environment. Here are the general steps to follow:
-
-1. Set up a production server with Python and a compatible database system (e.g., PostgreSQL).
-2. Clone the repository to the server.
-3. Install the required dependencies using `pip install -r requirements.txt`.
-4. Configure the database settings in the Django settings.py file.
-5. Run necessary migrations using `python manage.py migrate`.
-6. Set up a web server (e.g., Nginx) to serve the application.
-7. Configure the web server to forward requests to the Django application.
-8. Set up any necessary static file serving.
-9. Start the application server and web server.
-
-Ensure to follow appropriate security measures when deploying to a production environment, such as using HTTPS, securing sensitive information, and implementing access controls.
-
 ## Credits
 
 We would like to acknowledge the following resources and libraries that contributed to the development of this application:
